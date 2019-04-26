@@ -1,0 +1,56 @@
+@font-face {
+font-family: 'NeoBulletin Extruded Regular';
+font-style: normal;
+font-weight: normal;
+src: local('NeoBulletin Extruded Regular'), url('NeoBulletin Extruded.woff') format('woff');
+}
+@font-face {
+font-family: 'Syabab Brush Script Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Syabab Brush Script Regular'), url('Syabab Brush Script-demo.woff') format('woff');
+}
+
+
+.head{
+  height:180px;
+  background-color: rgba(0,0,0,.6);
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+margin: 20px;
+margin-top: 0px;
+
+}
+.body{
+    background-image: url(bg.jpg);
+   border-radius: 5px;
+}
+.i{
+  height:120px;
+  width: auto;
+}
+#h{
+  font-family: 'NeoBulletin Extruded Regular';
+  font-size: 70px;
+    color:white;
+}
+.foot{
+font-size: 30px;
+color:orange;
+
+}
+#name{
+  font-family: 'Syabab Brush Script Regular';
+  font-size: 50px;
+  color:lightgreen;
+  margin: 20px;
+}
+#foot{
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

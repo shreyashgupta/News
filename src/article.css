@@ -1,0 +1,56 @@
+
+#card{
+	background-color: rgba(0,0,0,.8);
+	margin: 10px;
+	border: 1px rgba(255,255,255,.5) solid;
+	border-radius: 5px;
+}
+
+#ari{
+	
+	height:auto;
+	width:45vh;
+margin: 10px;
+    box-shadow: -1px 1px 2px black;
+    padding: 5px;
+    border-radius: 15px;
+    float: left;
+}
+#title{
+	margin-top: 10px;
+	font-size: 35px;
+	font-family: Times-New-Roman;
+	color:orange;
+	margin: 5px;
+}
+#desc,#cont{
+	color:white;
+	font-size: 22px;
+	padding: 10px;
+}
+#link{
+	color: white;
+	float: right;
+}
+a{
+	color:white;
+	text-decoration: none;
+	font-family: cursive;
+	margin:10px;
+	font-size: 16px;
+	border:1px solid white;
+	border-radius: 5px;
+	padding: 0px 3px;
+}
+.end{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	margin-left: 120px;
+	margin-top: 0px;
+}
+.end p{
+	color:white;
+	font-size: 20px;
+	padding:10px;
+}
