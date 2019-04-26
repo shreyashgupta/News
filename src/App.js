@@ -17,7 +17,10 @@ constructor(){
       .then(users => {this.setState({ articles: users.articles})});
   }
   render() {
-    return (
+    if(this.state.articles.length===0)
+      {return(
+        <h1 className="load">LOADING.....</h1>);}
+    else{    return (
       <div className="body">
       <div className="head">
       <img src={i} alt="logo" className="i"></img>
@@ -31,7 +34,8 @@ constructor(){
             <p id="name"> Shreyash Gupta</p>
         </div>
         </div>
-    );
+    );}
+
   }
 }
 
